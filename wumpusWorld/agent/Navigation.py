@@ -60,20 +60,6 @@ class NavigationMixin:
 
         return angle
 
-    #@staticmethod
-    #def shortest_turn(agent, direction_goal):
-    #    if agent.orientation == 'East':
-    #        angle = NavigationMixin.get_direction(direction_goal)
-    #        res = angle - 0
-    #    elif agent.orientation == 'South':
-    #        pass
-    #    elif agent.orientation == 'West':
-    #        pass
-    #    elif agent.orientation == 'North':
-    #        pass
-    #    else:
-    #        raise ValueError("must be North, South, East or West")
-
     @staticmethod
     def construct_orientation_graph():
         angle_list = []
