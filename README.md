@@ -1,2 +1,2 @@
-# reinforcement_excercise
-some code written during a course
+# Reinforcement Excercise
+Some source code written as an excercise during a course.
