@@ -3,7 +3,7 @@ from wumpusWorld.environment.Agent import *
 from wumpusWorld.environment.Environment import *
 import random
 
-class NaiveAgent:#(Agent):
+class NaiveAgent:
 
     def __init__(self):
         self.rand_gen = [random.randint(0, 5) for i in range(1000)]
